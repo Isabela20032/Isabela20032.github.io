@@ -67,7 +67,6 @@ li.dropdown {
   text-decoration: none;
   display: block;
   text-align: left;
-
 }
 
 .dropdown:hover .dropdown-content {
@@ -89,7 +88,6 @@ h1 {
 }
 
 #sinopse {
-  /* font-size: 1em; */
   color: #111f46;
   margin: 3em;
   padding: 1em;
@@ -100,7 +98,6 @@ h1 {
 
 .trailers {
   margin: 3em;
-
 }
 
 .trailers video {
@@ -148,25 +145,21 @@ h1 {
 
 .personagens {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
 }
 
 #personagem {
-  /* border: 2px solid rgb(26, 50, 85); */
-  margin: 10px;
+  margin: 50px;
   padding: 15px;
   background-color: rgb(27, 49, 103, 0.9);
   border-radius: 10px;
   width: 320px;
-  /* align-items: center; */
 }
 
 #foto {
   border: 2px solid black;
   width: 100%;
-  /* height: 350px; */
   margin-bottom: 5px;
-  /* background-image: url('fundo.jfif'); */
 }
 
 #personagem h1 {
@@ -177,10 +170,12 @@ h1 {
 .curiosidades {
   margin: 1em;
 }
-.curiosidades h1{
-  
+
+.curiosidades h1 {
+
   margin-left: calc(50% - 3em);
 }
+
 .dados {
   color: #111f46;
   margin: 1em;
@@ -189,22 +184,24 @@ h1 {
   background-color: rgb(200, 204, 252, 0.7);
   box-shadow: 10px 10px 8px rgb(212, 212, 244, 0.1);
 }
-.galeria{
-  grid-area: galeria;
+
+
+.galeria {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto;
 }
-.galeria img{
-  width: 100%;
+
+.galeria img {
+  width: 200px;
   height: 300px;
   object-fit: cover;
   border: 4px solid black;
+  margin: 2px;
 }
 
 
-
-
-input[type=text], select {
+input[type=text],
+select {
   width: 90%;
   padding: 10px 20px;
   margin: 8px 0;
@@ -213,10 +210,10 @@ input[type=text], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
-#mensagem {
-  width: 84%;
-}
 
+#mensagem {
+  width: 87%;
+}
 
 input[type=submit] {
   width: 100%;
@@ -240,9 +237,19 @@ input[type=submit]:hover {
   max-width: 55%;
   background-color: rgb(200, 204, 252, 0.9);
   box-shadow: 10px 10px 8px rgb(212, 212, 244, 0.1);
-} 
-.contato h1{
- 
-  margin: 1.5em; 
+}
+
+.contato h1 {
+  margin: 1.5em;
   margin-left: calc(50% - 6em);
+}
+
+#gif {
+  margin-left: calc(50% - 20em);
+}
+
+.h1DaG {
+  margin: 2em;
+  margin-left: 50%;
+  color: #091023;
 }
